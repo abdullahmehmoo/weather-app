@@ -13,9 +13,18 @@ This is a simple Weather App that fetches current weather data using the **OpenW
 - HTML / CSS / JavaScript 
 - [OpenWeatherMap API](https://openweathermap.org/api)
 
+## 🌐 API Information
+
+This app uses the **free OpenWeatherMap API** to fetch real-time weather data.
+
+I've included a **free API key** in the code for users to try out the app easily:
+```js
+const apiKey = "5796abbde9106b7da4febfae8c44c232"; // Free API key provided
+```
 ## 📦 Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/abdullahmehmoo/weather-app.git
    cd weather-app
+   ```
