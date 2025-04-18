@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #112D4E;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+}
+
+body {
+    background-color: #112D4E;
+}
+
+.card {
+    border: 2px solid #F9F7F7;
+    width: 470px;
+    max-width: 90%;
+    border-radius: 7px;
+    margin: 100px auto;
+    padding: 12px 12px;
+    background-color: #F9F7F7;
+}
+
+.search {
+    display: flex;
+    background-color: #F9F7F7;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    height: 50px;
+    border-radius: 8px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #F9F7F7;
+}
+
+
+
+.search button img {
+    width: 16px;
+    background-color: #F9F7F7;
+    height: 16px;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.weather-icon {
+    width: 170px;
+    height: 170px;
+    margin-top: 30px;
+}
+
+#temp {
+    font-size: 90px;
+    font-weight: 500;
+}
+
+#city {
+    font-size: 45px;
+    font-weight: 400;
+    margin: -10px;
+}
+
+.desc-weather {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 25px;
+}
+
+.col {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* align-items: baseline; */
+}
+
+.col>img {
+    width: 40px;
+    height: 40px;
+}
+
+.humidity {
+    font-size: 24px;
+    margin-top: 24px;
+    margin-left: 10px;
+}
+
+.wind {
+    font-size: 24px;
+    margin-top: 24px;
+    margin-left: 10px;
+}
+
+.weather {
+    display: none;
+}
+
+.error-msg p {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+
+.error-msg {
+    display: none;
+}

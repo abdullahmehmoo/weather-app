@@ -1,0 +1,17 @@
+{
+  "name": "simple-weather-app",
+  "version": "1.0.0",
+  "description": "This is an weather app made by using Open Weather Map API",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weatherapp",
+    "simpleweatherapp",
+    "openweathermap"
+  ],
+  "author": "Abdullah Mehmood",
+  "license": "ISC"
+}
