@@ -1,4 +1,4 @@
-const API_KEY = ""; // replace with your API key
+const API_KEY = "5796abbde9106b7da4febfae8c44c232"; // replace with your API key
 
 
 async function checkWeahter(cityName) {
