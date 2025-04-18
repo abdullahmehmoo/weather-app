@@ -10,7 +10,7 @@ This is a simple Weather App that fetches current weather data using the **OpenW
 
 ## 🛠️ Technologies Used
 
-- HTML / CSS / JavaScript *(or any language/framework you used)*
+- HTML / CSS / JavaScript 
 - [OpenWeatherMap API](https://openweathermap.org/api)
 
 ## 📦 Installation
