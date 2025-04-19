@@ -4,9 +4,10 @@ This is a simple Weather App that fetches current weather data using the **OpenW
 
 ## 🔍 Features
 
-- Get current weather by city name.
-- Shows temperature, weather conditions, and more.
-- Clean and minimal design.
+- Automatically fetches your IP address using `ipify`
+- Detects your location based on your IP
+- Shows current weather data using the **OpenWeatherMap API**
+- Minimal and clean interface
 
 ## 🛠️ Technologies Used
 
